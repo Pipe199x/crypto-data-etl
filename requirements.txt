@@ -1,0 +1,9 @@
+fastapi==0.115.0        # FastAPI is the main framework used to create and manage the cryptocurrency API.
+pydantic==2.9.2         # Pydantic is used for defining and validating data models to ensure data structures meet the expected format.
+python-dotenv==1.0.1    # python-dotenv is used to load environment variables from a .env file, protecting sensitive information like API keys.
+supabase==2.8.1         # Supabase is the database for this project; this library is used to interact with Supabase and execute database queries.
+schedule==1.2.2         # schedule is used to automate the ETL process that periodically collects cryptocurrency data.
+uvicorn==0.23.2         # Uvicorn is the ASGI server compatible with FastAPI, used to run the API.
+requests==2.31.0        # requests is used to make HTTP requests, such as retrieving data from the CoinGecko API.
+numpy                   # numpy is used for numerical calculations, including correlation and volatility analysis in cryptocurrency price data.
+fastapi[standard]==0.115.0  # The standard FastAPI package, includes additional tools for running FastAPI CLI commands.

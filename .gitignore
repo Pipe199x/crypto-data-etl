@@ -1,0 +1,49 @@
+# Virtual environment folders
+.venv/
+env/
+ENV/
+venv/
+env.bak/
+venv.bak/
+
+# Sensitive configuration files
+.env  # Environment file with sensitive API keys and configuration
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Package dependency and distribution configuration files
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Package installation logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test reports and coverage files
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+*.cover
+
+# Static analysis type-checking cache
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDE-specific configuration files
+.vscode/  # Visual Studio Code configuration
+
+# Log files
+*.log
+
+# Other temporary and debug files
+*.temp  # Any temporary file
